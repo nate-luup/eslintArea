@@ -4,8 +4,10 @@ module.exports = {
         "es6": true
     },
     "extends": [
+        "plugin:@typescript-eslint/recommended", //enable all the recommended rules for our plugin
         "plugin:react/recommended",
-        "google"
+        "prettier",
+        // "google"
     ],
     "globals": {
         "Atomics": "readonly",
