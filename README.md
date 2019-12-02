@@ -1,6 +1,7 @@
 # eslintArea
-- [Eslint]
-- [Prettier]
+
+- [Eslint](doc/eslint.md)
+- [Prettier](doc/prettier.md)
 - [Reference](#Reference)
 
 <h2 id="Reference">Reference</h2>
