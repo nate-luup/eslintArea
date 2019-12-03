@@ -1,5 +1,9 @@
 # Eslint
 
+> ESLint uses Espree for JavaScript parsing.
+> ESLint uses an AST to evaluate patterns in code.
+> **ESLint is completely pluggable, every single rule is a plugin and you can add more at runtime.**
+
 - [Getting Started with ESLint](https://eslint.org/docs/user-guide/getting-started)
     - Installation and Usage
     - Configuration
