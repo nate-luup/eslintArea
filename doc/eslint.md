@@ -4,6 +4,12 @@
 > ESLint uses an AST to evaluate patterns in code.
 > **ESLint is completely pluggable, every single rule is a plugin and you can add more at runtime.**
 
+- [Doc](#doc)
+- [Generate Report](#report)
+- [Reference](#Reference)
+
+<h2 id="doc">DOC</h2>
+
 - [Getting Started with ESLint](https://eslint.org/docs/user-guide/getting-started)
     - Installation and Usage
     - Configuration
@@ -32,6 +38,21 @@
 - [Formatters](https://eslint.org/docs/user-guide/formatters/)
 - [Integrations](https://eslint.org/docs/user-guide/integrations)
 
+<h2 id="report">Generate Report</h2>
+
+- [eslint-html-reporter](https://www.npmjs.com/package/eslint-html-reporter)
+
+1. Generate report with `waring` and `error`
+
+```bash
+npx eslint src/**  -f node_modules/eslint-html-reporter/reporter.js -o report.html
+```
+
+2. Generate report only contains `error`
+
+```bash
+npx eslint src/** --quiet -f node_modules/eslint-html-reporter/reporter.js -o report.html
+```
 
 <h2 id="Reference">Reference</h2>
 
