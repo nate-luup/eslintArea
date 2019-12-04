@@ -27,12 +27,14 @@
     - Specifying File extensions to Lint
     - Ignoring Files and Directories
     - Personal Configuration File (deprecated)
-- [Command Line Interface]
-- [Rules]
-- [Formatters]
-- [Integrations]
+- [Command Line Interface](https://eslint.org/docs/user-guide/command-line-interface)
+- [Rules](https://eslint.org/docs/rules/)
+- [Formatters](https://eslint.org/docs/user-guide/formatters/)
+- [Integrations](https://eslint.org/docs/user-guide/integrations)
 
 
 <h2 id="Reference">Reference</h2>
 
+- [Eslint](https://eslint.org/)
+- [Eslint 中文](https://cn.eslint.org/)
 - [eslint-plugin 开发入门](https://www.jianshu.com/p/f3fddccb059a)
