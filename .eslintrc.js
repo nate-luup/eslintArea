@@ -11,7 +11,7 @@ module.exports = {
         'plugin:@typescript-eslint/recommended',
         'plugin:react/recommended',
         'google',
-        'prettier',
+        'plugin:prettier/recommended',
     ],
     globals: {
         Atomics: 'readonly',
@@ -26,9 +26,8 @@ module.exports = {
         ecmaVersion: 2018,
         sourceType: 'module',
     },
-    plugins: ['react', '@typescript-eslint', 'prettier'],
+    plugins: ['react', '@typescript-eslint'],
     rules: {
-        'no-global-assign': 'error',
-        'prettier/prettier': 'error',
+        'no-global-assign': 'error'
     },
 }
