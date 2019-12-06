@@ -1,5 +1,7 @@
 # 结合Prettier和ESLint来规范代码
 
+- [参考地址](#reference)
+
 ## 安装依赖
 
 ```bash
@@ -84,3 +86,8 @@ module.exports = {
 上述新增的extends的配置中：
 - prettier/@typescript-eslint：使得@typescript-eslint中的样式规范失效，遵循prettier中的样式规范
 - plugin:prettier/recommended：使用prettier中的样式规范，且如果使得ESLint会检测prettier的格式问题，同样将格式问题以error的形式抛出
+
+<h2 id="reference">参考地址</h2>
+
+- [使用ESLint+Prettier来统一前端代码风格](https://juejin.im/post/5b27a326e51d45588a7dac57)
+- [在Typescript项目中，如何优雅的使用ESLint和Prettier](https://segmentfault.com/a/1190000019661168)

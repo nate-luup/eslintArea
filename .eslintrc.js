@@ -26,8 +26,9 @@ module.exports = {
         ecmaVersion: 2018,
         sourceType: 'module',
     },
-    plugins: ['react', '@typescript-eslint'],
+    plugins: ['react', '@typescript-eslint', 'prettier'],
     rules: {
         'no-global-assign': 'error',
+        'prettier/prettier': 'error',
     },
 }
