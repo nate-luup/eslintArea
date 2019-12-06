@@ -60,7 +60,7 @@ npm i -D eslint-plugin-prettier
 
 <h2 id="fix-plugin-conflict">解决与已存在的插件的冲突</h2>
 
-安装依赖
+**安装依赖**
 
 ```bash
 npm i -D eslint-config-prettier
@@ -77,6 +77,10 @@ npm i -D eslint-config-prettier
 }
 ```
 这里有个[文档](https://github.com/prettier/eslint-config-prettier#special-rules)，列出了会与prettier冲突的配置项。
+
+**代码透视**
+
+![eslint-config-prettier!](./images/eslint-config-prettier.png "eslint-config-prettier source code")
 
 
 
@@ -95,6 +99,9 @@ npm i -D eslint-config-prettier
 - Enables `eslint-plugin-prettier`.
 - Sets the `prettier/prettier` rule to "error".
 - Extends the `eslint-config-prettier` configuration.
+
+![eslint-plugin-prettier/recommend!](./images/eslint-plugin-prettier-recommended.png "eslint-plugin-prettier.js source code")
+
 
 <h2 id="reference">参考地址</h2>
 

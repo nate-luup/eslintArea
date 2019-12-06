@@ -13,10 +13,9 @@
 
 ```json
 {
-    "eslint.enable": true,  //是否开启vscode的eslint
-    "eslint.autoFixOnSave": true, //是否在保存的时候自动fix eslint
-
-    "eslint.validate": [     //确定校验准则
+    "eslint.enable": true,
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
         "javascript",
         "javascriptreact",
         {

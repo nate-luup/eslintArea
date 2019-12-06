@@ -12,6 +12,8 @@ module.exports = {
         'plugin:react/recommended',
         'google',
         'plugin:prettier/recommended',
+        'prettier/@typescript-eslint',
+        'prettier/react',
     ],
     globals: {
         Atomics: 'readonly',
@@ -28,6 +30,6 @@ module.exports = {
     },
     plugins: ['react', '@typescript-eslint'],
     rules: {
-        'no-global-assign': 'error'
+        'no-global-assign': 'error',
     },
 }
